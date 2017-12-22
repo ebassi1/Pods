@@ -7,164 +7,261 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28497CDD82B715FD6964CE71B51E76D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		64816ED9702A4174310F573FA6EF2A32 /* Pods-Movi Rosario-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FD93371953A534C14CEDF02F281A57 /* Pods-Movi Rosario-dummy.m */; };
+		056E03D1A88316866DADB2E9EE12F0FE /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEDEA7BC142F516DDB11C03FDAAB1C /* Blob.swift */; };
+		205C41147C4D05E7F4E1F7C4F8D919F7 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0336022DC8BC95EA1925FD256B5E51 /* Helpers.swift */; };
+		2AA805042CDC76EFF657AC4C45BF7ACE /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C410B9E27094C05700ECA37C6095C /* Operators.swift */; };
+		2DD9ED3B2634977B98B4EC5A9F9FE844 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463075C5DDF843B1FAA62F00FA2CD94C /* Statement.swift */; };
+		2E61A4EAC5625D5207E1CA8C1B287949 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777311B22315A06470E5711AA3EDD6A /* Schema.swift */; };
+		3981C81D34E54802A2D0CA11832830F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3CED56526319D4B522B28C79C8F9339E /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2E07C3352B3C198445E235F77AB79 /* Setter.swift */; };
+		3DAC074B9610FF85C196E9B96B4E335B /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6359F629AD54E83EDB6EE20ACB00F57 /* CoreFunctions.swift */; };
+		618EDEF97BB04D693CAE97C71A0D672A /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72083B4A0DE7C3D4AEE9AA4763E4BAF3 /* Query.swift */; };
+		62B47CBB5C271F41769C9D4B8B2440A9 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0968F6294FF3818BDA529657E915F3AC /* CustomFunctions.swift */; };
+		63F9A863C886AF761E35BCDA5A2BA4DA /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE32E020547F567E6AA8D7722BB5AE5 /* Coding.swift */; };
+		675E36135E744B2722B5D117BD2F2079 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E13BF7F9BAC13CC2B6319F431F6C46E /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		69E8D49F86DDDB2B713BCB8A919C4813 /* Pods-Movi Rosario-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3C9C34BE1D69971B6BD5BFEDF811DC /* Pods-Movi Rosario-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D9D6465499AC7A29666FFB5DEB839FF /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = EB43D37B246DDC6E0E83D39BC95DEC1F /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A70FD754B17311417F194FA9FBE7964 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF91138CD6B200443BC914D627CD79 /* Foundation.swift */; };
+		85DE34CFD22289DB329AAF4779D2DC0D /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EA6CD939D55A3153038431A749919 /* Value.swift */; };
+		8703AB62EFD711AAEE73CF96A446792E /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B4506D1EB4A23CC77903B53368F45B /* Connection.swift */; };
+		87A75796BECCF5053336B6D307E9C233 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03BF5D8ADEB4E45728F50DE1E39D67F /* Expression.swift */; };
+		911560E9E8F175888BADF8ED92BB3953 /* Pods-Movi Rosario-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC45F579FF651E8F15879F2BD71A84D0 /* Pods-Movi Rosario-dummy.m */; };
+		964434FE790B1149A4EB2B396720488D /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DEEB68AE54F470707B8D5D04479A08 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE003977956B8422468216B924E904BD /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D1BF75888F80398E10AE0A7D65FE9 /* Collation.swift */; };
+		AEA0ECEB9EB7D2E889E7CFF3160C6E7D /* SQLite-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 106A473D634E07E9204833DE4BE94315 /* SQLite-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B57EF03D0952DC26FC7246B0250EB21E /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E534410D11A2B253CB54506AE99E027 /* AggregateFunctions.swift */; };
+		C4062841ACCB98677430573702B547AC /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA91BD9760AF353A8F200BCA74D26A /* FTS4.swift */; };
+		C8314F016244CB7B419F8F4D41D9B05E /* SQLite-Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E6471E914686A7FE53C6A048FBB0F7 /* SQLite-Bridging.m */; };
+		D169DCBE564C5E0FE2135FBC80C2AD7B /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2736154C5ED1135005076B8CE7E0B953 /* SQLite.swift-dummy.m */; };
+		D1ACE6AD7A03F03199D62591A4F8358C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EB30CFD12767AAB2EA9BB8F8276F2FB4 /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E67A2812C7D31862F5A9F790942F40 /* FTS5.swift */; };
+		F29896A05AC1707D676138B54D9D16A5 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B2D577E047A9FCA032B2BB68B6948D /* RTree.swift */; };
+		F8FBDDA849BF79BD06EFFD68B91500CE /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AA88D7AB5F64FE26D7612FF5E5AEDC /* DateAndTimeFunctions.swift */; };
+		FF8E136FEA681CEFC7A3D323ED6DE69E /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991AE8BF2C1713371825CCC7BF32CFAC /* Errors.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A9C839EF38F0905D7756A5ECD4590935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0B4E275DB9565F2B4D60A378442C6B;
+			remoteInfo = SQLite.swift;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		01939C3477D32D98A6C444F7FAC0277C /* Pods-Movi Rosario.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Movi Rosario.release.xcconfig"; sourceTree = "<group>"; };
-		036AD7124D090A220C3B3C2364C327AB /* Pods-Movi Rosario-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Movi Rosario-acknowledgements.markdown"; sourceTree = "<group>"; };
-		239E0D1F35BA1B57F458435AE683DF9C /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		241B9E7176BBFAE5776D72D8425CA6B1 /* libPods-Movi Rosario.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Movi Rosario.a"; path = "libPods-Movi Rosario.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		25E9DAA949C220F622581C4888DF4B4C /* Pods-Movi Rosario-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Movi Rosario-acknowledgements.plist"; sourceTree = "<group>"; };
-		279F2BC036C195E577D3480816C982A0 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		3537C80C819BCC684800A8E960C7693C /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
-		36525E191CEC78B6588737713875C9A8 /* Pods-Movi Rosario-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Movi Rosario-frameworks.sh"; sourceTree = "<group>"; };
-		5E6299F1B20B0C7F1A162086BAC16B02 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		022C4BD26A8A2AC40A5E5F68F07ACFD1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		089C410B9E27094C05700ECA37C6095C /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
+		0968F6294FF3818BDA529657E915F3AC /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		0FEA91BD9760AF353A8F200BCA74D26A /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		106A473D634E07E9204833DE4BE94315 /* SQLite-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SQLite-Bridging.h"; path = "Sources/SQLiteObjc/include/SQLite-Bridging.h"; sourceTree = "<group>"; };
+		19B4506D1EB4A23CC77903B53368F45B /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		24F346BD29D955AD38639F8949306429 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLite.framework; path = SQLite.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2736154C5ED1135005076B8CE7E0B953 /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		2777311B22315A06470E5711AA3EDD6A /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		314CE908914345B5BB1946FA5312E8E0 /* SQLite.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.xcconfig; sourceTree = "<group>"; };
+		33EDE9D35E2E08A35E5853D31482C1D2 /* Pods-Movi Rosario-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Movi Rosario-frameworks.sh"; sourceTree = "<group>"; };
+		33F2E07C3352B3C198445E235F77AB79 /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		3669F645077836D8203EE009761B1ABD /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		3A3C9C34BE1D69971B6BD5BFEDF811DC /* Pods-Movi Rosario-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Movi Rosario-umbrella.h"; sourceTree = "<group>"; };
+		3BEE9D0278DC30E73E4A672168BB8824 /* Pods-Movi Rosario.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Movi Rosario.debug.xcconfig"; sourceTree = "<group>"; };
+		43D293CF55908A60E1EEFC2709D41C0A /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		463075C5DDF843B1FAA62F00FA2CD94C /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		4BD397D335F644B51A8EC25255F173A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBA44DA87F13A55D5B7CCF2A5224A1F /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		4E46CE02E272315B433ED566356F5398 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		4E534410D11A2B253CB54506AE99E027 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		5104101C3399D6AAE0C39989687F27E5 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		52AA88D7AB5F64FE26D7612FF5E5AEDC /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		52EEDEA7BC142F516DDB11C03FDAAB1C /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		556A2B974675B60CDC60DC6B0102BED1 /* Pods_Movi_Rosario.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Movi_Rosario.framework; path = "Pods-Movi Rosario.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E6471E914686A7FE53C6A048FBB0F7 /* SQLite-Bridging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SQLite-Bridging.m"; path = "Sources/SQLiteObjc/SQLite-Bridging.m"; sourceTree = "<group>"; };
+		648EA6CD939D55A3153038431A749919 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6E5146656495711D13D671AA752C814E /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		69B2D577E047A9FCA032B2BB68B6948D /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		6E13BF7F9BAC13CC2B6319F431F6C46E /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Sources/SQLiteObjc/fts3_tokenizer.h; sourceTree = "<group>"; };
+		6F81B148B5C380E49F88C27EB62E1704 /* Pods-Movi Rosario-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Movi Rosario-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72083B4A0DE7C3D4AEE9AA4763E4BAF3 /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		7C0336022DC8BC95EA1925FD256B5E51 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
+		832D25E0609229AC49B0BF22B4EA72AD /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		8B536BA397C242E303056397770C2B09 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9427854622E3AF7A882CDD9680CE7BC4 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
-		95E8ADBBE3A14D310D520A496066C380 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
-		BC350360AE29F6E81ECE133DA282E845 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		C707D0B2436B44460F3BC59902013158 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
-		D9FD93371953A534C14CEDF02F281A57 /* Pods-Movi Rosario-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Movi Rosario-dummy.m"; sourceTree = "<group>"; };
-		F16E6DB665CF0B9238DAC322A818AAD0 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		F2503CFD3C39888FF581DB930735D0FD /* Pods-Movi Rosario.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Movi Rosario.debug.xcconfig"; sourceTree = "<group>"; };
-		FA3DFFFD6634D5D44C784C8B05A9829B /* Pods-Movi Rosario-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Movi Rosario-resources.sh"; sourceTree = "<group>"; };
+		991AE8BF2C1713371825CCC7BF32CFAC /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
+		A212CF048483FB8AEBA670CA83950D32 /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		A66DCB89E670F324FEDEA593762A75DF /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		AFE32E020547F567E6AA8D7722BB5AE5 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
+		B62269C1F811D6195DDA7BCD2D9A617A /* Pods-Movi Rosario.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Movi Rosario.release.xcconfig"; sourceTree = "<group>"; };
+		BB7D1BF75888F80398E10AE0A7D65FE9 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
+		BBAF91138CD6B200443BC914D627CD79 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		BF5D68242BE5936BA1087DE8862BF5D1 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
+		C49C2792CC5AF57925EEB531EE82E72C /* Pods-Movi Rosario-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Movi Rosario-acknowledgements.plist"; sourceTree = "<group>"; };
+		C71BBD1619EF641F7F88257087323E72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E67A2812C7D31862F5A9F790942F40 /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		D03BF5D8ADEB4E45728F50DE1E39D67F /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
+		D0A34426CC14A0BDD2BDB7B573C45FA9 /* Pods-Movi Rosario.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Movi Rosario.modulemap"; sourceTree = "<group>"; };
+		E6359F629AD54E83EDB6EE20ACB00F57 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		EB43D37B246DDC6E0E83D39BC95DEC1F /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		EC45F579FF651E8F15879F2BD71A84D0 /* Pods-Movi Rosario-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Movi Rosario-dummy.m"; sourceTree = "<group>"; };
+		F3C06FBA5081CC32D0C8405BFB123EE7 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
+		F6DEEB68AE54F470707B8D5D04479A08 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		F948E142B5DCFDD509ACE396EEA55C6A /* Pods-Movi Rosario-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Movi Rosario-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F5037683AC2596181C5BB1ABF771BD3E /* Frameworks */ = {
+		A372CAEB98758D5C31BC2BA3E76A9863 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28497CDD82B715FD6964CE71B51E76D5 /* Foundation.framework in Frameworks */,
+				3981C81D34E54802A2D0CA11832830F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3586F9DA5582BB4EB0002903B729ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1ACE6AD7A03F03199D62591A4F8358C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		044218E65AD2B05D673EF8446A6B8CE8 /* Maps */ = {
+		041AB5E6C8B147B4A824E9F87A70C722 /* TwitterCore */ = {
 			isa = PBXGroup;
 			children = (
-				3DC4FF3DF1BAEFFB9FB6AAC600BFA2EF /* Frameworks */,
-				4F668E38CCEB2CC96699F459E7177BB2 /* Resources */,
+				4D4A54DFA6BAB8B62DA12FD9124D59E5 /* Frameworks */,
 			);
-			name = Maps;
+			name = TwitterCore;
+			path = TwitterCore;
 			sourceTree = "<group>";
 		};
-		1766A7BDB25DF4FAC3B02CF964A8B2EB /* Pods-Movi Rosario */ = {
+		16E67F88C8DDF6A0B4FEF71406DDD267 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
-				036AD7124D090A220C3B3C2364C327AB /* Pods-Movi Rosario-acknowledgements.markdown */,
-				25E9DAA949C220F622581C4888DF4B4C /* Pods-Movi Rosario-acknowledgements.plist */,
-				D9FD93371953A534C14CEDF02F281A57 /* Pods-Movi Rosario-dummy.m */,
-				36525E191CEC78B6588737713875C9A8 /* Pods-Movi Rosario-frameworks.sh */,
-				FA3DFFFD6634D5D44C784C8B05A9829B /* Pods-Movi Rosario-resources.sh */,
-				F2503CFD3C39888FF581DB930735D0FD /* Pods-Movi Rosario.debug.xcconfig */,
-				01939C3477D32D98A6C444F7FAC0277C /* Pods-Movi Rosario.release.xcconfig */,
-			);
-			name = "Pods-Movi Rosario";
-			path = "Target Support Files/Pods-Movi Rosario";
-			sourceTree = "<group>";
-		};
-		2848B3176AF725F659B7F92986689AB6 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6E5146656495711D13D671AA752C814E /* GooglePlaces.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		2BAF26C80DDEA9DCC29EECBFC5A338D4 /* GooglePlaces */ = {
-			isa = PBXGroup;
-			children = (
-				79E54D478036416CC0ED81BC1D250369 /* Frameworks */,
-				2848B3176AF725F659B7F92986689AB6 /* Resources */,
+				F99EF9402A33C9BC518B8CB70B3624CA /* Frameworks */,
+				8D40C53BC702F2D744B973A3205DC70F /* Resources */,
 			);
 			name = GooglePlaces;
 			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
-		2BB318720681C7A6DBF2DD5FBEED0970 /* Frameworks */ = {
+		1AD11751A0CF06945E6F65F008EEF57F /* standard */ = {
 			isa = PBXGroup;
 			children = (
-				C707D0B2436B44460F3BC59902013158 /* TwitterKit.framework */,
+				4E534410D11A2B253CB54506AE99E027 /* AggregateFunctions.swift */,
+				52EEDEA7BC142F516DDB11C03FDAAB1C /* Blob.swift */,
+				AFE32E020547F567E6AA8D7722BB5AE5 /* Coding.swift */,
+				BB7D1BF75888F80398E10AE0A7D65FE9 /* Collation.swift */,
+				19B4506D1EB4A23CC77903B53368F45B /* Connection.swift */,
+				E6359F629AD54E83EDB6EE20ACB00F57 /* CoreFunctions.swift */,
+				0968F6294FF3818BDA529657E915F3AC /* CustomFunctions.swift */,
+				52AA88D7AB5F64FE26D7612FF5E5AEDC /* DateAndTimeFunctions.swift */,
+				991AE8BF2C1713371825CCC7BF32CFAC /* Errors.swift */,
+				D03BF5D8ADEB4E45728F50DE1E39D67F /* Expression.swift */,
+				BBAF91138CD6B200443BC914D627CD79 /* Foundation.swift */,
+				6E13BF7F9BAC13CC2B6319F431F6C46E /* fts3_tokenizer.h */,
+				0FEA91BD9760AF353A8F200BCA74D26A /* FTS4.swift */,
+				C8E67A2812C7D31862F5A9F790942F40 /* FTS5.swift */,
+				7C0336022DC8BC95EA1925FD256B5E51 /* Helpers.swift */,
+				089C410B9E27094C05700ECA37C6095C /* Operators.swift */,
+				72083B4A0DE7C3D4AEE9AA4763E4BAF3 /* Query.swift */,
+				69B2D577E047A9FCA032B2BB68B6948D /* RTree.swift */,
+				2777311B22315A06470E5711AA3EDD6A /* Schema.swift */,
+				33F2E07C3352B3C198445E235F77AB79 /* Setter.swift */,
+				EB43D37B246DDC6E0E83D39BC95DEC1F /* SQLite.h */,
+				106A473D634E07E9204833DE4BE94315 /* SQLite-Bridging.h */,
+				59E6471E914686A7FE53C6A048FBB0F7 /* SQLite-Bridging.m */,
+				463075C5DDF843B1FAA62F00FA2CD94C /* Statement.swift */,
+				648EA6CD939D55A3153038431A749919 /* Value.swift */,
 			);
-			name = Frameworks;
+			name = standard;
 			sourceTree = "<group>";
 		};
-		3DC4FF3DF1BAEFFB9FB6AAC600BFA2EF /* Frameworks */ = {
+		1B19374585B343169EA7402A66E2AA41 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BC350360AE29F6E81ECE133DA282E845 /* GoogleMaps.framework */,
-				279F2BC036C195E577D3480816C982A0 /* GoogleMapsCore.framework */,
+				C71BBD1619EF641F7F88257087323E72 /* Info.plist */,
+				832D25E0609229AC49B0BF22B4EA72AD /* SQLite.swift.modulemap */,
+				314CE908914345B5BB1946FA5312E8E0 /* SQLite.swift.xcconfig */,
+				2736154C5ED1135005076B8CE7E0B953 /* SQLite.swift-dummy.m */,
+				A212CF048483FB8AEBA670CA83950D32 /* SQLite.swift-prefix.pch */,
+				F6DEEB68AE54F470707B8D5D04479A08 /* SQLite.swift-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
 			sourceTree = "<group>";
 		};
-		4EF51C478D633054BE649F7C261B1836 /* Resources */ = {
+		31D2A8519F6655CA1F7B36FD18459C98 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				95E8ADBBE3A14D310D520A496066C380 /* TwitterKitResources.bundle */,
-				3537C80C819BCC684800A8E960C7693C /* TwitterShareExtensionUIResources.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		4F668E38CCEB2CC96699F459E7177BB2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F16E6DB665CF0B9238DAC322A818AAD0 /* GoogleMaps.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		525A2C97163ECD378E176FE52E7B1B7C /* GoogleMaps */ = {
-			isa = PBXGroup;
-			children = (
-				8010885CAD10CEB44D35ED005715A846 /* Base */,
-				044218E65AD2B05D673EF8446A6B8CE8 /* Maps */,
+				715910DE6DEFA0FFFCB28E92F3928FE8 /* Base */,
+				F92353C787D4AFF7B5FACDA5B1A6386D /* Maps */,
 			);
 			name = GoogleMaps;
 			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
-		64D55F9E7D2556AE61A08554CF6E5CA6 /* Pods */ = {
+		4D4A54DFA6BAB8B62DA12FD9124D59E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				525A2C97163ECD378E176FE52E7B1B7C /* GoogleMaps */,
-				2BAF26C80DDEA9DCC29EECBFC5A338D4 /* GooglePlaces */,
-				C067D9C66B78A5AFAD4F709470B745C7 /* TwitterCore */,
-				CF684CF25A6396A638C5EB26B4B8FD75 /* TwitterKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		7148590180D55BC5D65D4E47F9812671 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1766A7BDB25DF4FAC3B02CF964A8B2EB /* Pods-Movi Rosario */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		734EDFEFC0FC4E5E80B481E43BB85E02 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				239E0D1F35BA1B57F458435AE683DF9C /* GoogleMapsBase.framework */,
+				43D293CF55908A60E1EEFC2709D41C0A /* TwitterCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		79E54D478036416CC0ED81BC1D250369 /* Frameworks */ = {
+		4F876695F87288CE08B1719FF4A99839 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9427854622E3AF7A882CDD9680CE7BC4 /* GooglePlaces.framework */,
+				5104101C3399D6AAE0C39989687F27E5 /* TwitterKitResources.bundle */,
+				BF5D68242BE5936BA1087DE8862BF5D1 /* TwitterShareExtensionUIResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		564020E22183D6CA97BCE3F53F7B3A11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3C06FBA5081CC32D0C8405BFB123EE7 /* TwitterKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62814008E730B3E720C70C31448EE765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				556A2B974675B60CDC60DC6B0102BED1 /* Pods_Movi_Rosario.framework */,
+				24F346BD29D955AD38639F8949306429 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6709B69F02B117D93025D4A140A837D5 /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				564020E22183D6CA97BCE3F53F7B3A11 /* Frameworks */,
+				4F876695F87288CE08B1719FF4A99839 /* Resources */,
+			);
+			name = TwitterKit;
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		6A1DC9A08A9935C7D20E58C61D34534C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E46CE02E272315B433ED566356F5398 /* GoogleMaps.framework */,
+				022C4BD26A8A2AC40A5E5F68F07ACFD1 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		715910DE6DEFA0FFFCB28E92F3928FE8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B7511D4B3E230DBCFD571EA2F04A74C8 /* Frameworks */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -172,24 +269,44 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				64D55F9E7D2556AE61A08554CF6E5CA6 /* Pods */,
-				EC216D8963375D62BCD76B5C37CE73FD /* Products */,
-				7148590180D55BC5D65D4E47F9812671 /* Targets Support Files */,
+				868F4E6493FE54E59FBD34B013C56B24 /* Pods */,
+				62814008E730B3E720C70C31448EE765 /* Products */,
+				D68210D66D568E718DC3625FA38BB009 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8010885CAD10CEB44D35ED005715A846 /* Base */ = {
+		868F4E6493FE54E59FBD34B013C56B24 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				734EDFEFC0FC4E5E80B481E43BB85E02 /* Frameworks */,
+				31D2A8519F6655CA1F7B36FD18459C98 /* GoogleMaps */,
+				16E67F88C8DDF6A0B4FEF71406DDD267 /* GooglePlaces */,
+				D61CBC63931BA13751E06D08FD655268 /* SQLite.swift */,
+				041AB5E6C8B147B4A824E9F87A70C722 /* TwitterCore */,
+				6709B69F02B117D93025D4A140A837D5 /* TwitterKit */,
 			);
-			name = Base;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		8F38C8A78596E350F5CF95159F071DDF /* Frameworks */ = {
+		8D40C53BC702F2D744B973A3205DC70F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5E6299F1B20B0C7F1A162086BAC16B02 /* TwitterCore.framework */,
+				8B536BA397C242E303056397770C2B09 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B216C2046D9443CB9A40ADC3C783507A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A66DCB89E670F324FEDEA593762A75DF /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B7511D4B3E230DBCFD571EA2F04A74C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3669F645077836D8203EE009761B1ABD /* GoogleMapsBase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,25 +319,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C067D9C66B78A5AFAD4F709470B745C7 /* TwitterCore */ = {
-			isa = PBXGroup;
-			children = (
-				8F38C8A78596E350F5CF95159F071DDF /* Frameworks */,
-			);
-			name = TwitterCore;
-			path = TwitterCore;
-			sourceTree = "<group>";
-		};
-		CF684CF25A6396A638C5EB26B4B8FD75 /* TwitterKit */ = {
-			isa = PBXGroup;
-			children = (
-				2BB318720681C7A6DBF2DD5FBEED0970 /* Frameworks */,
-				4EF51C478D633054BE649F7C261B1836 /* Resources */,
-			);
-			name = TwitterKit;
-			path = TwitterKit;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,32 +327,118 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EC216D8963375D62BCD76B5C37CE73FD /* Products */ = {
+		D61CBC63931BA13751E06D08FD655268 /* SQLite.swift */ = {
 			isa = PBXGroup;
 			children = (
-				241B9E7176BBFAE5776D72D8425CA6B1 /* libPods-Movi Rosario.a */,
+				1AD11751A0CF06945E6F65F008EEF57F /* standard */,
+				1B19374585B343169EA7402A66E2AA41 /* Support Files */,
 			);
-			name = Products;
+			name = SQLite.swift;
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		D68210D66D568E718DC3625FA38BB009 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECDBB0B268C150B4F894466DC01B223D /* Pods-Movi Rosario */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ECDBB0B268C150B4F894466DC01B223D /* Pods-Movi Rosario */ = {
+			isa = PBXGroup;
+			children = (
+				4BD397D335F644B51A8EC25255F173A5 /* Info.plist */,
+				D0A34426CC14A0BDD2BDB7B573C45FA9 /* Pods-Movi Rosario.modulemap */,
+				6F81B148B5C380E49F88C27EB62E1704 /* Pods-Movi Rosario-acknowledgements.markdown */,
+				C49C2792CC5AF57925EEB531EE82E72C /* Pods-Movi Rosario-acknowledgements.plist */,
+				EC45F579FF651E8F15879F2BD71A84D0 /* Pods-Movi Rosario-dummy.m */,
+				33EDE9D35E2E08A35E5853D31482C1D2 /* Pods-Movi Rosario-frameworks.sh */,
+				F948E142B5DCFDD509ACE396EEA55C6A /* Pods-Movi Rosario-resources.sh */,
+				3A3C9C34BE1D69971B6BD5BFEDF811DC /* Pods-Movi Rosario-umbrella.h */,
+				3BEE9D0278DC30E73E4A672168BB8824 /* Pods-Movi Rosario.debug.xcconfig */,
+				B62269C1F811D6195DDA7BCD2D9A617A /* Pods-Movi Rosario.release.xcconfig */,
+			);
+			name = "Pods-Movi Rosario";
+			path = "Target Support Files/Pods-Movi Rosario";
+			sourceTree = "<group>";
+		};
+		F92353C787D4AFF7B5FACDA5B1A6386D /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				6A1DC9A08A9935C7D20E58C61D34534C /* Frameworks */,
+				B216C2046D9443CB9A40ADC3C783507A /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		F99EF9402A33C9BC518B8CB70B3624CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CBA44DA87F13A55D5B7CCF2A5224A1F /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		35423F196017278B9C704395DC62008E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675E36135E744B2722B5D117BD2F2079 /* fts3_tokenizer.h in Headers */,
+				AEA0ECEB9EB7D2E889E7CFF3160C6E7D /* SQLite-Bridging.h in Headers */,
+				6D9D6465499AC7A29666FFB5DEB839FF /* SQLite.h in Headers */,
+				964434FE790B1149A4EB2B396720488D /* SQLite.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0D48995AE23989B32F2D73E83B230A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E8D49F86DDDB2B713BCB8A919C4813 /* Pods-Movi Rosario-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		A2548AF30662C599A733912B8EFA629C /* Pods-Movi Rosario */ = {
+		C73CE81BDB8E1682B0D95857729BD17F /* Pods-Movi Rosario */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5EEA3CE816C1668C8478AD1AF276E97 /* Build configuration list for PBXNativeTarget "Pods-Movi Rosario" */;
+			buildConfigurationList = 92113A574FA5F1293865A4494B3928F1 /* Build configuration list for PBXNativeTarget "Pods-Movi Rosario" */;
 			buildPhases = (
-				FFF525A9B432C7408EA782C417662E4E /* Sources */,
-				F5037683AC2596181C5BB1ABF771BD3E /* Frameworks */,
+				A4D246CA163317436BB9E335A2A93E1B /* Sources */,
+				A372CAEB98758D5C31BC2BA3E76A9863 /* Frameworks */,
+				EE0D48995AE23989B32F2D73E83B230A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2930B46E73D6B29418D258C832791950 /* PBXTargetDependency */,
+			);
+			name = "Pods-Movi Rosario";
+			productName = "Pods-Movi Rosario";
+			productReference = 556A2B974675B60CDC60DC6B0102BED1 /* Pods_Movi_Rosario.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF0B4E275DB9565F2B4D60A378442C6B /* SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51EA1FBD220344769E89B1EA8DB1318 /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
+			buildPhases = (
+				46C86ACA4FA1CB74438DF247763F5848 /* Sources */,
+				C3586F9DA5582BB4EB0002903B729ADE /* Frameworks */,
+				35423F196017278B9C704395DC62008E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Movi Rosario";
-			productName = "Pods-Movi Rosario";
-			productReference = 241B9E7176BBFAE5776D72D8425CA6B1 /* libPods-Movi Rosario.a */;
-			productType = "com.apple.product-type.library.static";
+			name = SQLite.swift;
+			productName = SQLite.swift;
+			productReference = 24F346BD29D955AD38639F8949306429 /* SQLite.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -273,25 +457,65 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EC216D8963375D62BCD76B5C37CE73FD /* Products */;
+			productRefGroup = 62814008E730B3E720C70C31448EE765 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2548AF30662C599A733912B8EFA629C /* Pods-Movi Rosario */,
+				C73CE81BDB8E1682B0D95857729BD17F /* Pods-Movi Rosario */,
+				EF0B4E275DB9565F2B4D60A378442C6B /* SQLite.swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FFF525A9B432C7408EA782C417662E4E /* Sources */ = {
+		46C86ACA4FA1CB74438DF247763F5848 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64816ED9702A4174310F573FA6EF2A32 /* Pods-Movi Rosario-dummy.m in Sources */,
+				B57EF03D0952DC26FC7246B0250EB21E /* AggregateFunctions.swift in Sources */,
+				056E03D1A88316866DADB2E9EE12F0FE /* Blob.swift in Sources */,
+				63F9A863C886AF761E35BCDA5A2BA4DA /* Coding.swift in Sources */,
+				AE003977956B8422468216B924E904BD /* Collation.swift in Sources */,
+				8703AB62EFD711AAEE73CF96A446792E /* Connection.swift in Sources */,
+				3DAC074B9610FF85C196E9B96B4E335B /* CoreFunctions.swift in Sources */,
+				62B47CBB5C271F41769C9D4B8B2440A9 /* CustomFunctions.swift in Sources */,
+				F8FBDDA849BF79BD06EFFD68B91500CE /* DateAndTimeFunctions.swift in Sources */,
+				FF8E136FEA681CEFC7A3D323ED6DE69E /* Errors.swift in Sources */,
+				87A75796BECCF5053336B6D307E9C233 /* Expression.swift in Sources */,
+				7A70FD754B17311417F194FA9FBE7964 /* Foundation.swift in Sources */,
+				C4062841ACCB98677430573702B547AC /* FTS4.swift in Sources */,
+				EB30CFD12767AAB2EA9BB8F8276F2FB4 /* FTS5.swift in Sources */,
+				205C41147C4D05E7F4E1F7C4F8D919F7 /* Helpers.swift in Sources */,
+				2AA805042CDC76EFF657AC4C45BF7ACE /* Operators.swift in Sources */,
+				618EDEF97BB04D693CAE97C71A0D672A /* Query.swift in Sources */,
+				F29896A05AC1707D676138B54D9D16A5 /* RTree.swift in Sources */,
+				2E61A4EAC5625D5207E1CA8C1B287949 /* Schema.swift in Sources */,
+				3CED56526319D4B522B28C79C8F9339E /* Setter.swift in Sources */,
+				C8314F016244CB7B419F8F4D41D9B05E /* SQLite-Bridging.m in Sources */,
+				D169DCBE564C5E0FE2135FBC80C2AD7B /* SQLite.swift-dummy.m in Sources */,
+				2DD9ED3B2634977B98B4EC5A9F9FE844 /* Statement.swift in Sources */,
+				85DE34CFD22289DB329AAF4779D2DC0D /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D246CA163317436BB9E335A2A93E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911560E9E8F175888BADF8ED92BB3953 /* Pods-Movi Rosario-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2930B46E73D6B29418D258C832791950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = EF0B4E275DB9565F2B4D60A378442C6B /* SQLite.swift */;
+			targetProxy = A9C839EF38F0905D7756A5ECD4590935 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
@@ -349,24 +573,103 @@
 			};
 			name = Release;
 		};
-		1F32ACB520B7E5461209402BCCEDD1E9 /* Release */ = {
+		2923141E39F584CCEC0FB28446A31748 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01939C3477D32D98A6C444F7FAC0277C /* Pods-Movi Rosario.release.xcconfig */;
+			baseConfigurationReference = B62269C1F811D6195DDA7BCD2D9A617A /* Pods-Movi Rosario.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Movi Rosario/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Movi Rosario/Pods-Movi Rosario.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Movi_Rosario;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DC4DCD109C23B53C95E97CCBF8AE155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BEE9D0278DC30E73E4A672168BB8824 /* Pods-Movi Rosario.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Movi Rosario/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Movi Rosario/Pods-Movi Rosario.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Movi_Rosario;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E787835C7CEA07C52C00E7DBAE1E144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 314CE908914345B5BB1946FA5312E8E0 /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -430,23 +733,34 @@
 			};
 			name = Debug;
 		};
-		A8DE255FBF5DE773E2A1D6840D2100C1 /* Debug */ = {
+		C704C9BB74BC453F9CD85F599F04B186 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2503CFD3C39888FF581DB930735D0FD /* Pods-Movi Rosario.debug.xcconfig */;
+			baseConfigurationReference = 314CE908914345B5BB1946FA5312E8E0 /* SQLite.swift.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_NAME = SQLite;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -462,11 +776,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5EEA3CE816C1668C8478AD1AF276E97 /* Build configuration list for PBXNativeTarget "Pods-Movi Rosario" */ = {
+		92113A574FA5F1293865A4494B3928F1 /* Build configuration list for PBXNativeTarget "Pods-Movi Rosario" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8DE255FBF5DE773E2A1D6840D2100C1 /* Debug */,
-				1F32ACB520B7E5461209402BCCEDD1E9 /* Release */,
+				2DC4DCD109C23B53C95E97CCBF8AE155 /* Debug */,
+				2923141E39F584CCEC0FB28446A31748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51EA1FBD220344769E89B1EA8DB1318 /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C704C9BB74BC453F9CD85F599F04B186 /* Debug */,
+				4E787835C7CEA07C52C00E7DBAE1E144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
